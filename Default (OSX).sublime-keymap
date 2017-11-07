@@ -1,0 +1,16 @@
+[
+	{ "keys": ["super+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["super+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+	{ "keys": ["/"], "command": "close_tag", "args": { "insert_slash": true }, "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "(text.html, text.xml, meta.jsx.js) - string - comment", "match_all": true },
+			{ "key": "preceding_text", "operator": "regex_match", "operand": ".*<$", "match_all": true },
+			{ "key": "setting.auto_close_tags" }
+		],
+	},
+	{ "keys": ["ctrl+super+enter"], "command": "replace_all", "args": {"close_panel": true},
+		 "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+	},
+	{ "keys": ["super+option+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["super+option+down"], "command": "select_lines", "args": {"forward": true} },
+]
