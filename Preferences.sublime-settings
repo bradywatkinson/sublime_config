@@ -1,0 +1,29 @@
+{
+	"auto_complete_commit_on_tab": false,
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+	"command": "commit_completion",
+	"context":
+	[
+		{
+			"key": "auto_complete_visible"
+		}
+	],
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules"
+	],
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"keys":
+	[
+		"enter"
+	],
+	"shift_tab_unindent": true,
+	"theme": "Cobalt2.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}
